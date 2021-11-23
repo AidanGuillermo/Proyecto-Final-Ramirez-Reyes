@@ -1,0 +1,76 @@
+.opinion-container {
+	padding: 50px;
+	color: #fff;
+}
+.opinion-container .opinion-title {
+	font-size: 1em;
+	font-weight: 400;
+}
+.opinion-container .opinion-subtitle {
+	color: #5f5f5f;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.opinion-container form .fieldset-opinion-container {
+	border: none;
+}
+.opinion-container form .fieldset-opinion-container .opinion-pregunta {
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.opinion-container form .fieldset-opinion-container .opinion-pregunta::before {
+	content: '>> ';
+	color: #ffffff24;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.opinion-container form .fieldset-opinion-container div .label-for-option {
+	margin-left: 7.5px;
+}
+.opinion-container form .fieldset-opinion-container .textarea-opinion-input {
+	width: 450px;
+	height: 200px;
+	border: 1px solid #ffffff24;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: 400;
+	color: #fff;
+	background-color: #ffffff24;
+	resize: none;
+	overflow-y: auto;
+}
+.opinion-container form .fieldset-opinion-container .textarea-opinion-input::placeholder {
+	color: #ffffff24;
+}
+.opinion-container form .fieldset-divisor {
+	margin: 20px 0;
+	border-radius: 1000px;
+	width: 300px;
+	height: 1px;
+	background-color: #ffffff24;
+}
+.opinion-container form .form-btn,
+.opinion-container form .submit-form-btn,
+.opinion-container form .reset-form-btn {
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #ffffff24;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	cursor: pointer;
+	transition: all 150ms ease-in-out;
+	border: none;
+	margin: 20px 20px 0px 0px;
+}
+.opinion-container form .reset-form-btn:hover {
+	background-color: #fd4141;
+	color: #fff;
+}
+.opinion-container form .submit-form-btn:hover {
+	background-color: #4176fd;
+	color: #fff;
+}

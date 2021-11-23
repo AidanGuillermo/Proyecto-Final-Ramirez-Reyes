@@ -1,0 +1,59 @@
+/* .Coaches-List {
+	color: silver;
+	background-color: rgb(44, 3, 44);
+} */
+.coaches-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px;
+}
+.coaches-container .coaches-content-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+}
+.coaches-container .coaches-content-container .coaches-element {
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #3a3a3a;
+	color: silver;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.248);
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+}
+.coaches-container .coaches-content-container .coaches-element:hover {
+	background-color: #3d3d3d;
+}
+.coaches-container .coaches-content-container .coaches-element .coaches-element-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #2c032c;
+	object-fit: cover;
+	margin-bottom: 30px;
+}
+.coaches-container .coaches-content-container .coaches-element .coaches-element-description .coaches-element-name {
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	color: #dcdcdc;
+}
+.coaches-container
+	.coaches-content-container
+	.coaches-element
+	.coaches-element-description
+	.coaches-element-description {
+	font-size: 1em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}

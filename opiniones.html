@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/opiniones.css" />
+		<link rel="stylesheet" href="./css/general.css" />
+		<title>Déjanos tu opinión</title>
+	</head>
+	<body>
+		<!--Inicio de header-->
+		<header>
+			<div class="header-banner"></div>
+			<nav class="navbar-container">
+				<a class="navbar-brand-element" href="index.html"
+					><img src="Img/Logo-chiquito.png" alt="logo de la pagina"
+				/></a>
+				<ul class="navbar-menu-list">
+					<li class="navbar-element"><a href="index.html"> Inicio </a></li>
+					<li class="navbar-element"><a href="home.html"> Bienvenido </a></li>
+					<li class="navbar-element"><a href="coaches.html"> Coaches </a></li>
+					<li class="navbar-element"><a href="nuestro-trabajo.html"> Nuestro trabajo </a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--Fin de header-->
+		<main class="opinion-container">
+			<div>
+				<p class="opinion-title">Gracias por colaborar!</p>
+				<p class="new-paragraph opinion-subtitle">
+					Completa este breve formulario para ayudarnos a mejorar nuestro servicio
+				</p>
+			</div>
+			<form action="">
+				<fieldset class="fieldset-opinion-container">
+					<p class="opinion-pregunta">¿Cómo te pareció nuestro servicio?</p>
+					<div>
+						<input type="radio" id="muy-bueno" name="experiencia" value="5" />
+						<label class="label-for-option" for="muy-bueno">Muy bueno</label>
+					</div>
+					<div>
+						<input type="radio" id="bueno" name="experiencia" value="4" />
+						<label class="label-for-option" for="bueno">Bueno</label>
+					</div>
+					<div>
+						<input type="radio" id="regular" name="experiencia" value="3" />
+						<label class="label-for-option" for="regular">Regular</label>
+					</div>
+					<div>
+						<input type="radio" id="malo" name="experiencia" value="2" />
+						<label class="label-for-option" for="malo">Malo</label>
+					</div>
+					<div>
+						<input type="radio" id="muy-malo" name="experiencia" value="1" />
+						<label class="label-for-option" for="muy-malo">Muy malo</label>
+					</div>
+				</fieldset>
+				<div class="fieldset-divisor"></div>
+				<fieldset class="fieldset-opinion-container">
+					<p class="opinion-pregunta">¿Crees que sea posible mejorarlo?</p>
+					<div>
+						<input type="radio" id="si" name="mejorable" value="true" />
+						<label class="label-for-option" for="si">Sí</label>
+					</div>
+					<div>
+						<input type="radio" id="no" name="mejorable" value="false" />
+						<label class="label-for-option" for="no">No</label>
+					</div>
+				</fieldset>
+				<div class="fieldset-divisor"></div>
+				<fieldset class="fieldset-opinion-container">
+					<div class="opinion-pregunta">Si tu respuesta fue "Sí", ¿Qué nos recomiendas?</div>
+					<textarea
+						class="textarea-opinion-input"
+						name="recomendaciones"
+						placeholder="Escribe tu respuesta aquí"
+					></textarea>
+				</fieldset>
+				<div class="fieldset-divisor"></div>
+				<fieldset class="fieldset-opinion-container">
+					<div class="opinion-pregunta">¿Tienes algún comentario que nos quieras dejar?</div>
+					<textarea
+						class="textarea-opinion-input"
+						name="comentario"
+						placeholder="Escribe tu respuesta aquí"
+					></textarea>
+				</fieldset>
+
+				<button type="reset" class="reset-form-btn">Reiniciar</button>
+				<button type="submit" class="submit-form-btn">Enviar</button>
+			</form>
+		</main>
+		<!--Inicio del footer-->
+		<footer class="footer-container">
+			<div class="fast-navigation-container">
+				<a href="home.html"> Inicio </a>
+				<a href="coaches.html"> Coaches </a>
+				<a href="nuestro-trabajo.html"> Nuestro trabajo </a>
+			</div>
+			<div class="social-media-footer-container">
+				<h3>Siguenos en</h3>
+				<div class="social-media-items-container">
+					<a href="#">
+						<img src="Img/instagram.png" alt="instagram" />
+					</a>
+					<a href="#">
+						<img src="Img/Twitter.png" alt="twitter" />
+					</a>
+					<a href="#">
+						<img src="Img/facebook.png" alt="facebook" />
+					</a>
+					<a href="#">
+						<img src="Img/youtube.png" alt="youtube" />
+					</a>
+					<a href="#">
+						<img src="Img/discord.png" alt="discord" />
+					</a>
+				</div>
+				<a class="opinion-footer-item" href="opiniones.html"> Déjanos tu opinión </a>
+			</div>
+			<div class="contact-footer-container">
+				<h4>Contactanos por</h4>
+				<div class="contact-email">gimprovers@gmail.com</div>
+				<div>
+					<a href="#"> > Game Improvers </a>
+				</div>
+				<div>
+					<a href="https://discord.gg/n7gjfrFM"> > Discord </a>
+				</div>
+			</div>
+		</footer>
+		<!--Fin de Footer-->
+	</body>
+</html>

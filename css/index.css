@@ -1,0 +1,152 @@
+main {
+	width: 100%;
+	height: 100%;
+}
+main .first-section {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 50px;
+}
+main .first-section .first-section-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 20px;
+}
+main .first-section .VideoExplicativo {
+	display: flex;
+	flex-wrap: row wrap;
+	/* background-color: rgb(53, 50, 50); */
+}
+main .first-section .VideoExplicativo .aside-text {
+	width: 50%;
+	margin-right: 25px;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.727);
+}
+main .first-section .VideoExplicativo .video-explicativo {
+	width: 50%;
+	margin-left: 25px;
+}
+@media screen and (max-width: 922px) {
+	main .first-section .VideoExplicativo {
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	main .first-section .VideoExplicativo .aside-text {
+		width: 100%;
+		margin-right: 0;
+	}
+	main .first-section .VideoExplicativo .video-explicativo {
+		width: 100%;
+		margin-top: 30px;
+		margin-left: 0;
+	}
+}
+main .second-section {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 50px;
+	background-color: #161616;
+}
+main .second-section .second-section-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 20px;
+}
+main .second-section .proof-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+main .second-section .proof-container img {
+	width: 31%;
+	height: auto;
+}
+main .third-section {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+main .third-section .third-section-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 20px;
+}
+main .third-section .review-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+}
+main .third-section .review-container .review-element {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 750px) {
+	main .third-section .review-container .review-element {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+main .third-section .review-container .review-element .review-element-image {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+@media screen and (max-width: 750px) {
+	main .third-section .review-container .review-element .review-element-image {
+		margin-bottom: 15px;
+	}
+}
+main .third-section .review-container .review-element .review-element-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+main .third-section .review-container .review-element .review-element-text {
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+}
+main .third-section .review-container .review-element .review-element-text .min-review {
+	font-size: 16px;
+}
